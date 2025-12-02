@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive 3D Particles</title>
+    <script type="module" crossorigin src="/assets/index-CjNVWsYC.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-M0XbcvJp.css">
+  </head>
+  <body>
+    <div id="canvas-container"></div>
+    <video id="input-video" style="display: none;" playsinline></video>
+    
+    <div id="ui-container">
+      <h1>Gesture Particles</h1>
+      <p class="subtitle">Open hands to expand, close to shrink</p>
+      <div class="controls">
+        <div class="control-group">
+          <label>Shape</label>
+          <div class="button-group" id="shape-buttons">
+            <button data-shape="heart" class="active">Heart</button>
+            <button data-shape="flower">Flower</button>
+            <button data-shape="saturn">Saturn</button>
+            <button data-shape="fireworks">Fireworks</button>
+            <button data-shape="spiral">Spiral</button>
+          </div>
+        </div>
+        <div class="control-group">
+          <label>Color</label>
+          <input type="color" id="color-picker" value="#ff0055">
+        </div>
+      </div>
+      <div class="status" id="status">Initializing...</div>
+    </div>
+
+  </body>
+</html>
