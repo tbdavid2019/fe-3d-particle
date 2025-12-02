@@ -86,8 +86,6 @@ export class ParticleSystem {
         
         // Scale down
         x *= 0.1; y *= 0.1; z *= 0.1;
-        // Flip Y to be upright
-        y *= -1;
 
       } else if (type === 'flower') {
         // Rose curve: r = cos(k * theta)
